@@ -1,0 +1,9 @@
+# NVIDIA A40 (compute_86)
+
+CUDA_ARCH_FLAGS ?= -gencode arch=compute_86,code=sm_86
+
+OPTIONS  =
+OPTIONS +=  -DSIZE=42000
+OPTIONS +=  -DNTIMES=2
+OPTIONS +=  -DMETRICS
+# OPTIONS +=  -DTENSOR

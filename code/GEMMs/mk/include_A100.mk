@@ -1,0 +1,9 @@
+# NVIDIA A100 (compute_80)
+
+CUDA_ARCH_FLAGS ?= -gencode arch=compute_80,code=sm_80
+
+OPTIONS  =
+OPTIONS +=  -DSIZE=14080
+OPTIONS +=  -DNTIMES=1300
+# OPTIONS +=  -DMETRICS
+# OPTIONS +=  -DTENSOR
